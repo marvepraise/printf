@@ -147,6 +147,7 @@ int print_reverse(va_list types, char buffer[],
 
 	{
 		char z = str[i];
+
 		write(1, &z, 1);
 		count++;
 	}
